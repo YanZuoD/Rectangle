@@ -10,5 +10,6 @@ public class RectangleTest {
         Rectangle rectangle = new Rectangle(length,width);
         Assert.assertTrue(rectangle.getArea() == length*width);
         Assert.assertTrue(rectangle.getCircumference() == 2*(length+width));
+
     }
 }
